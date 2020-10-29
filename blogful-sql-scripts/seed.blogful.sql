@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES 
+    ('A', now() - '25 days'::INTERVAL, 'lorem'),
+    ('B', now() - '24 days'::INTERVAL, 'ipsum'),
+    ('C', now() - '22 days'::INTERVAL, 'dolor'),
+    ('D', now() - '21 days'::INTERVAL, 'sit'),
+    ('E', now() - '20 days'::INTERVAL, 'amet'),
+    ('F', now() - '19 days'::INTERVAL, 'consectetur'),
+    ('G', now() - '17 days'::INTERVAL, 'adipiscing'),
+    ('H', now() - '16 days'::INTERVAL, 'elit'),
+    ('I', now() - '15 days'::INTERVAL, 'sed'),
+    ('J', now() - '13 days'::INTERVAL, 'do'),
+    ('K', now() - '12 days'::INTERVAL, 'eiusmod'),
+    ('L', now() - '11 days'::INTERVAL, 'tempor'),
+    ('M', now() - '10 days'::INTERVAL, 'incididunt'),
+    ('N', now() - '9 days'::INTERVAL, 'ut'),
+    ('O', now() - '7 days'::INTERVAL, 'labore'),
+    ('P', now() - '6 days'::INTERVAL, 'et'),
+    ('Q', now() - '5 days'::INTERVAL, 'dolore'),
+    ('R', now() - '4 days'::INTERVAL, 'magna'),
+    ('S', now() - '3 days'::INTERVAL, 'aliqua'),
+    ('T', now() - '2 days'::INTERVAL, 'quis');
